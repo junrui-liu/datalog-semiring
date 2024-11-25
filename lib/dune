@@ -1,0 +1,5 @@
+(library
+ (name semiring)
+ (preprocess
+  (pps ppx_jane ppx_deriving.show))
+ (libraries base fmt logs logs.fmt))
